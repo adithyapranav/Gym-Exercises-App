@@ -65,7 +65,7 @@ The project requires the following dependencies to run successfully:
 
 Ensure you have the following installed on your machine:
 - **Node.js** (v14 or higher)
-- **npm** or **yarn**
+- **npm**
 - **Python 3.x**
 - **Elasticsearch** (v7.x or compatible version)
 - **Kibana** (to monitor Elasticsearch)
