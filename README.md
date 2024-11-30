@@ -88,7 +88,7 @@ cd gym-exercise-search
 #### 2. Start Elasticsearch
 Ensure Elasticsearch is installed and running locally or on your server.
 
-If necessary, update the elasticsearch.yml configuration file to allow cross-origin resource sharing (CORS).
+Update the elasticsearch.yml configuration file to allow cross-origin resource sharing (CORS).
 Start the Elasticsearch service.
 #### 3. Upload the Dataset to Elasticsearch
 Navigate to the directory containing the indexing script.
