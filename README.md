@@ -84,3 +84,47 @@ Ensure you have the following installed on your machine:
 ```bash
 git clone https://github.com/your-username/gym-exercise-search.git
 cd gym-exercise-search
+```
+####2. Start Elasticsearch
+Ensure Elasticsearch is installed and running locally or on your server.
+
+If necessary, update the elasticsearch.yml configuration file to allow cross-origin resource sharing (CORS).
+Start the Elasticsearch service.
+####3. Upload the Dataset to Elasticsearch
+Navigate to the directory containing the indexing script.
+Run the script to upload the dataset to Elasticsearch:
+```bash
+python indexing.py
+```
+Note: Ensure you update the Elasticsearch credentials in indexing.py before running the script.
+
+####4. Run the Backend Server
+Open a new terminal.
+Navigate to the backend directory:
+```bash
+cd gym_backend
+```
+Start the Django server:
+```bash
+python manage.py runserver
+```
+####5. Run the Frontend
+Open another terminal.
+Navigate to the frontend directory:
+```bash
+cd gym-frontend
+```
+Install the required Node.js packages:
+```bash
+npm install
+```
+Start the React development server:
+```bash
+npm start
+```
+Access the Application
+Open your browser and navigate to:
+```bash
+http://localhost:3000
+```
+The application should now be running with the frontend served on port 3000 and the backend served on port 8000.
