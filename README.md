@@ -85,12 +85,12 @@ Ensure you have the following installed on your machine:
 git clone https://github.com/your-username/gym-exercise-search.git
 cd gym-exercise-search
 ```
-####2. Start Elasticsearch
+#### 2. Start Elasticsearch
 Ensure Elasticsearch is installed and running locally or on your server.
 
 If necessary, update the elasticsearch.yml configuration file to allow cross-origin resource sharing (CORS).
 Start the Elasticsearch service.
-####3. Upload the Dataset to Elasticsearch
+#### 3. Upload the Dataset to Elasticsearch
 Navigate to the directory containing the indexing script.
 Run the script to upload the dataset to Elasticsearch:
 ```bash
@@ -98,7 +98,7 @@ python indexing.py
 ```
 Note: Ensure you update the Elasticsearch credentials in indexing.py before running the script.
 
-####4. Run the Backend Server
+#### 4. Run the Backend Server
 Open a new terminal.
 Navigate to the backend directory:
 ```bash
@@ -108,7 +108,7 @@ Start the Django server:
 ```bash
 python manage.py runserver
 ```
-####5. Run the Frontend
+#### 5. Run the Frontend
 Open another terminal.
 Navigate to the frontend directory:
 ```bash
